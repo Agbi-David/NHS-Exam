@@ -4,8 +4,8 @@ from pyzbar.pyzbar import decode # imports pyzbar
 import os
 
 # Using raw string to handle backslashes
-image_path = r'C:\Users\User\Desktop\NHS\QRcode.PNG'
-output_path = r'C:\Users\User\Desktop\NHS\QRcode_detected.png'
+image_path = r'C:\Users\david\Desktop\New folder\NHS-Exam\QRcode_result.png'
+output_path = r'C:\Users\david\Desktop\New folder\NHS-Exam\QRcode_result.png'
 
 # Print the image path to ensure it's correct
 print(f"Image path: {image_path}") # Error logging to help debug incase of errors with relations to image path
